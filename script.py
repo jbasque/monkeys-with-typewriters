@@ -14,7 +14,7 @@ mutation_rate = .01
 # pop size
 total_pop = 200
 
-# keep track of current gen
+# keeps track of current gen
 generation = []
 
 
@@ -47,7 +47,7 @@ def next_gen(curr_gen, curr_gen_fitness):
 
     max_fitness = -1
 
-    # finds the mosy fit in the generation
+    # finds the most fit in the generation
     for val in curr_gen_fitness:
         if val > max_fitness :
             max_fitness = val
