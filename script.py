@@ -3,7 +3,7 @@ import string
 import math
 
 # list of available characters
-alphabet = string.ascii_letters[0:26] + ' '
+alphabet = string.ascii_letters + ' '
 
 # target string
 target = 'monkeys with typewriters'
